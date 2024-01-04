@@ -1,0 +1,27 @@
+
+.formContainer {
+    border: 1px solid #C2C2B9;
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 4px;
+}   
+
+.title {
+    font-size: 20px;
+}
+
+.submitButton {
+    margin-top: 30px;
+    color: white;
+    background-color: #FF5A00;
+
+    &:disabled {
+        cursor: not-allowed;
+        background-color: #FFCDB2;
+    }
+}
